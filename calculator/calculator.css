@@ -1,0 +1,42 @@
+table, td{
+    border: 10px solid white;
+}
+#openBracket, #closeBracket, #percentage, #reset, #division, #multiplication, #subtraction, #plus{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+#screen{
+    height: 60px;
+    border: 2px solid;
+    border-radius: 10px 10px;
+    text-overflow: ellipsis;
+    max-width: 330px;
+}
+#openBracket, #closeBracket, #percentage, #reset, #division, #multiplication, #subtraction, #plus{
+    background-color: darkgray;
+}
+button{
+    width: 60px;
+    height: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px 10px;
+}
+tr:nth-child(1){
+    width: 60px;
+    height: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 15px 15px;
+}
+#equal{
+    background-color: aqua;
+}
+.content{
+    width: 358px;
+    height: 360px;
+    margin: 0 auto;
+    border: 5px solid blue;
+}
